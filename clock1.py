@@ -1,0 +1,6 @@
+setting_file=open("settings.txt","r")
+setting_data=setting_file.readline().strip("")
+settings_of_music=int(setting_data[0])
+settings_of_break=int(setting_data[1])
+print(settings_of_music)
+print(settings_of_break)
